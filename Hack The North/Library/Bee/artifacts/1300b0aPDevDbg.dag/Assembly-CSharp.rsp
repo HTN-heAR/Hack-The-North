@@ -317,6 +317,8 @@
 "Assets/KKSpeechRecognizer/Example/SpeechRecognitionLanguageDropdown.cs"
 "Assets/KKSpeechRecognizer/SpeechRecognizer.cs"
 "Assets/KKSpeechRecognizer/SpeechRecognizerListener.cs"
+"Assets/Scripts/FuckYou.cs"
+"Assets/Scripts/Test.cs"
 -langversion:9.0
 /unsafe+
 /deterministic

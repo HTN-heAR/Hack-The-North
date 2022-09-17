@@ -4,47 +4,56 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using KKSpeech;
 
-namespace KKSpeech {
-	public class SpeechRecognitionLanguageDropdown : MonoBehaviour {
+namespace KKSpeech
+{
+    public class SpeechRecognitionLanguageDropdown : MonoBehaviour
+    {
 
-		private Dropdown dropdown;
-		private List<LanguageOption> languageOptions;
+        private Dropdown dropdown;
+        private List<LanguageOption> languageOptions;
 
-		void Start () {
-			dropdown = GetComponent<Dropdown>();
-			dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
-			dropdown.ClearOptions();
+        void Start()
+        {
 
-			GameObject.FindObjectOfType<SpeechRecognizerListener>().
-				onSupportedLanguagesFetched.
-				AddListener(OnSupportedLanguagesFetched);
+            dropdown = GetComponent<Dropdown>();
+            dropdown.onValueChanged.AddListener(OnDropdownValueChanged);
+            dropdown.ClearOptions();
 
-			SpeechRecognizer.GetSupportedLanguages();
-		}
+            GameObject.FindObjectOfType<SpeechRecognizerListener>().
+                onSupportedLanguagesFetched.
+                AddListener(OnSupportedLanguagesFetched);
 
-		// remember to add ExampleScene to Build Settings!
-		public void GoToRecordingScene() {
-			SceneManager.LoadScene("ExampleScene");
-		}
+            SpeechRecognizer.GetSupportedLanguages();
+        }
 
-		void OnDropdownValueChanged(int index) {
-			LanguageOption languageOption = languageOptions[index];
+        // remember to add ExampleScene to Build Settings!
+        public void GoToRecordingScene()
+        {
+            SceneManager.LoadScene("ExampleScene");
+        }
 
-			SpeechRecognizer.SetDetectionLanguage(languageOption.id);
-		}
+        void OnDropdownValueChanged(int index)
+        {
+            LanguageOption languageOption = languageOptions[index];
 
-		void OnSupportedLanguagesFetched(List<LanguageOption> languages) {
-			List<Dropdown.OptionData> dropdownOptions = new List<Dropdown.OptionData>();
+            SpeechRecognizer.SetDetectionLanguage(languageOption.id);
+        }
 
-			foreach (LanguageOption langOption in languages) {
-				dropdownOptions.Add(new Dropdown.OptionData(langOption.displayName));
-			}
+        void OnSupportedLanguagesFetched(List<LanguageOption> languages)
+        {
+            List<Dropdown.OptionData> dropdownOptions = new List<Dropdown.OptionData>();
 
-			dropdown.AddOptions(dropdownOptions);
+            print("bruh");
+            foreach (LanguageOption langOption in languages)
+            {
+                dropdownOptions.Add(new Dropdown.OptionData(langOption.displayName));
+            }
 
-			languageOptions = languages;
-		} 
+            dropdown.AddOptions(dropdownOptions);
 
-	}
+            languageOptions = languages;
+        }
+
+    }
 }
 
