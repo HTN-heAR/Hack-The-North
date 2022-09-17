@@ -377,6 +377,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARFoundation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARFoundation.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARKit.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARKit.FaceTracking.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARKit.FaceTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARKit.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARSubsystems.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.ARSubsystems.ref.dll"
