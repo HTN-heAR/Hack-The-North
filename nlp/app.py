@@ -29,8 +29,8 @@ def get_summary():
     temperature = 0.1, #number to determine likelyhood of random responses
     k = 500, #ensures top k of number of tokens to generate
     p = 1, #t ensures that only the most likely tokens, with total probability mass of p, are considered for generation at each step
-    frequency_penalty= 0.5 #penalizes new tokens based on their existing frequency in the text so far
-    presence_penalty= 0.5 #penalizes new tokens based on whether they appear in the text so far
+    frequency_penalty= 0.5, #penalizes new tokens based on their existing frequency in the text so far
+    presence_penalty= 0.5, #penalizes new tokens based on whether they appear in the text so far
     )
     return prompt
 
