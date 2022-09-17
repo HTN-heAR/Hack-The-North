@@ -12,121 +12,130 @@
 10-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 11
 12    <uses-feature android:glEsVersion="0x00030000" />
-12-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:3-52
-12-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-49
+12-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-52
+12-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-49
 13    <uses-feature
-13-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-91
+13-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-91
 14        android:name="android.hardware.vulkan.version"
-14-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-63
+14-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-63
 15        android:required="false" />
-15-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:64-88
+15-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:64-88
 16    <uses-feature android:name="android.software.home_screen" />
-16-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-63
-16-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-60
+16-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-63
+16-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-60
 17
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-65
-18-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+18-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-65
+18-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-62
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-77
-19-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-74
+19-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-77
+19-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-74
 20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-20-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-79
-20-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-76
-21
-22    <uses-feature
-22-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-88
-23        android:name="android.hardware.touchscreen"
-23-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-60
-24        android:required="false" />
-24-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:61-85
-25    <uses-feature
-25-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-99
-26        android:name="android.hardware.touchscreen.multitouch"
-26-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-71
-27        android:required="false" />
-27-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:72-96
-28    <uses-feature
-28-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-108
-29        android:name="android.hardware.touchscreen.multitouch.distinct"
-29-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-80
-30        android:required="false" />
-30-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:81-105
-31
-32    <application android:extractNativeLibs="true" >
-32-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-17:17
-32-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
-33        <activity
-33-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
-34            android:name="com.unity3d.player.UnityPlayerActivity"
-34-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
-35            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-35-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
-36            android:hardwareAccelerated="false"
-36-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
-37            android:launchMode="singleTask"
-37-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
-38            android:resizeableActivity="false"
-38-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
-39            android:screenOrientation="fullUser"
-39-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
-40            android:theme="@style/UnityThemeSelector" >
-40-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
-41            <intent-filter>
-41-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
-42                <action android:name="android.intent.action.MAIN" />
-42-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
-42-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
-44-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
-45            </intent-filter>
-46
-47            <meta-data
-47-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
-48                android:name="unityplayer.UnityActivity"
-48-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
-49                android:value="true" />
-49-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
-50            <meta-data
-50-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
-51                android:name="android.notch_support"
-51-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
-52                android:value="true" />
-52-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
-53        </activity>
-54
-55        <meta-data
-55-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
-56            android:name="unity.splash-mode"
-56-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
-57            android:value="0" />
-57-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
-58        <meta-data
-58-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
-59            android:name="unity.splash-enable"
-59-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
-60            android:value="True" />
-60-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
-61        <meta-data
-61-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
-62            android:name="unity.launch-fullscreen"
-62-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
-63            android:value="True" />
-63-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
-64        <meta-data
-64-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
-65            android:name="unity.allow-resizable-window"
-65-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
-66            android:value="False" />
-66-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
-67        <meta-data
-67-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
-68            android:name="notch.config"
-68-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
-69            android:value="portrait|landscape" />
-69-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
-70    </application>
-71
-72</manifest>
+20-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-79
+20-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-76
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-69
+21-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-66
+22
+23    <uses-feature
+23-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-88
+24        android:name="android.hardware.touchscreen"
+24-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-60
+25        android:required="false" />
+25-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:61-85
+26    <uses-feature
+26-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-71
+28        android:required="false" />
+28-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:72-96
+29    <uses-feature
+29-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-80
+31        android:required="false" />
+31-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:81-105
+32
+33    <application android:extractNativeLibs="true" >
+33-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-18:17
+33-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+34        <activity
+34-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-12:16
+35            android:name="com.unity3d.player.UnityPlayerActivity"
+35-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+36            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+36-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+37            android:hardwareAccelerated="false"
+37-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+38            android:launchMode="singleTask"
+38-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+39            android:resizeableActivity="false"
+39-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+40            android:screenOrientation="fullUser"
+40-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+41            android:theme="@style/UnityThemeSelector" >
+41-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+42            <intent-filter>
+42-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+43-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+45-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+46            </intent-filter>
+47
+48            <meta-data
+48-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+49                android:name="unityplayer.UnityActivity"
+49-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+50                android:value="true" />
+50-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+51            <meta-data
+51-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+52                android:name="android.notch_support"
+52-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+53                android:value="true" />
+53-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+54            <meta-data
+54-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+55                android:name="android.notch_support"
+55-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+56                android:value="true" />
+56-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+57        </activity>
+58
+59        <meta-data
+59-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+60            android:name="unity.splash-mode"
+60-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+61            android:value="0" />
+61-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+62        <meta-data
+62-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+63            android:name="unity.splash-enable"
+63-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+64            android:value="True" />
+64-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+65        <meta-data
+65-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-78
+66            android:name="unity.launch-fullscreen"
+66-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-54
+67            android:value="True" />
+67-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:55-75
+68        <meta-data
+68-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+69            android:name="unity.allow-resizable-window"
+69-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-59
+70            android:value="False" />
+70-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:60-81
+71        <meta-data
+71-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+72            android:name="notch.config"
+72-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+73            android:value="portrait|landscape" />
+73-->C:\_Personal\Coding\Hack-The-North\Hack The North\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+74    </application>
+75
+76</manifest>
