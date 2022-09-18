@@ -417,3 +417,5 @@ Cmd: compileSnippet
 
 Cmd: initializeCompiler
 
+Cmd: initializeCompiler
+

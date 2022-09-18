@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637990459080000000
-    m_Hash: 2802082827
+      ticks: 637990539890000000
+    m_Hash: 402615922
   m_LockFileStatus:
     m_FilePath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637990459090000000
-    m_Hash: 2488035870
+      ticks: 637990539890000000
+    m_Hash: 2899430026
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -163,6 +163,123 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.17.2
+    nextVersion: 
+- packageId: com.unity.feature.ar@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.feature.ar@1.0.0
+  assetPath: Packages/com.unity.feature.ar
+  name: com.unity.feature.ar
+  displayName: AR
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: feature
+  description: "Create rich, deeply engaging augmented reality experiences with Unity\u2019s
+    AR Feature Set.  The AR Feature Set provides a starting point for augmented reality
+    development, spanning from head-mounted displays to mobile."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.xr.arfoundation
+    version: default
+  - name: com.unity.xr.arkit
+    version: default
+  - name: com.unity.xr.arcore
+    version: default
+  - name: com.unity.xr.magicleap
+    version: default
+  - name: com.unity.xr.arkit-face-tracking
+    version: default
+  - name: com.unity.xr.openxr
+    version: default
+  resolvedDependencies:
+  - name: com.unity.xr.arfoundation
+    version: 4.2.6
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.6
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.xr.arkit
+    version: 4.2.6
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.xr.arcore
+    version: 4.2.3
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.xr.magicleap
+    version: 6.4.1
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.xr.interactionsubsystems
+    version: 1.0.1
+  - name: com.unity.xr.arkit-face-tracking
+    version: 4.2.6
+  - name: com.unity.xr.openxr
+    version: 1.4.2
+  - name: com.unity.inputsystem
+    version: 1.4.2
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
@@ -3985,6 +4102,453 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
+- packageId: com.unity.xr.arcore@4.2.3
+  testable: 0
+  isDirectDependency: 0
+  version: 4.2.3
+  source: 1
+  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.arcore@4.2.3
+  assetPath: Packages/com.unity.xr.arcore
+  name: com.unity.xr.arcore
+  displayName: ARCore XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
+    XR API.
+
+    Supports the following features:
+
+    -Efficient Background Rendering
+
+    -Horizontal
+    Planes
+
+    -Depth Data
+
+    -Anchors
+
+    -Hit Testing
+
+    -Occlusion'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.24
+    - 2.0.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.4
+    - 2.1.8
+    - 2.1.11
+    - 2.1.12
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.7
+    - 3.1.8
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.3
+    - 4.0.4
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    compatible:
+    - 4.2.3
+    - 4.2.6
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    verified: 4.2.6
+  dependencies:
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.3
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.6
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - arcore
+  - ar
+  - augmented
+  - xr
+  - reality
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637871117150000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: 497981bbdfaf531fe240edcfa8f6edfd9aa1567e
+    path: 
+  unityLifecycle:
+    version: 4.2.3
+    nextVersion: 
+- packageId: com.unity.xr.magicleap@6.4.1
+  testable: 0
+  isDirectDependency: 0
+  version: 6.4.1
+  source: 1
+  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.magicleap@6.4.1
+  assetPath: Packages/com.unity.xr.magicleap
+  name: com.unity.xr.magicleap
+  displayName: Magic Leap XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Provides rendering and spatial mapping support for Magic Leap.
+
+
+    NOTE:
+    Unity 2020 LTS will be the last version of the editor which supports Magic Leap
+    1.
+
+
+    Developers can continue to build for Magic Leap 1 using Unity 2020 LTS
+    or 2019 LTS.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.0.0-preview.15
+    - 2.0.0-preview.16
+    - 2.0.0-preview.17
+    - 2.0.0-preview.18
+    - 2.0.0-preview.19
+    - 3.0.0-preview.5
+    - 3.0.0-preview.6
+    - 3.0.0-preview.7
+    - 3.0.0-preview.9
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 4.0.0-preview.2
+    - 4.0.0-preview.3
+    - 4.0.1-preview.1
+    - 4.0.2-preview.1
+    - 4.0.3-preview.1
+    - 4.0.3-preview.2
+    - 4.0.5
+    - 4.0.6-preview.1
+    - 4.0.6-preview.2
+    - 4.0.6-preview.4
+    - 4.0.6-preview.5
+    - 4.1.3
+    - 4.2.0-preview.3
+    - 4.2.2
+    - 4.2.3-preview.1
+    - 5.0.0
+    - 5.0.1-preview.1
+    - 5.1.1
+    - 5.1.2
+    - 5.2.0-preview.1
+    - 6.0.0
+    - 6.1.0-preview.2
+    - 6.2.0
+    - 6.2.2
+    - 6.3.0-preview.1
+    - 6.3.0-preview.2
+    - 6.4.0-pre.3
+    - 6.4.1
+    - 6.4.2-preview.1
+    - 6.4.2-preview.2
+    - 7.0.0-exp.3
+    - 7.0.0-exp.4
+    compatible:
+    - 6.4.1
+    - 6.4.2-preview.1
+    - 6.4.2-preview.2
+    verified: 6.4.1
+  dependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.arsubsystems
+    version: 4.0.12
+  - name: com.unity.xr.interactionsubsystems
+    version: 1.0.1
+  - name: com.unity.xr.management
+    version: 4.0.7
+  resolvedDependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.6
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.xr.interactionsubsystems
+    version: 1.0.1
+  keywords:
+  - magicleap
+  - ar
+  - augmented
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637698073620000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.magicleap.git
+    revision: 676be2c41661d5c4287fb0cac157aedadae166a8
+    path: 
+  unityLifecycle:
+    version: 6.4.1
+    nextVersion: 
+- packageId: com.unity.xr.openxr@1.4.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.4.2
+  source: 1
+  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.openxr@1.4.2
+  assetPath: Packages/com.unity.xr.openxr
+  name: com.unity.xr.openxr
+  displayName: OpenXR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: OpenXR is an open, royalty-free standard developed by Khronos that
+    aims to simplify AR/VR development by allowing developers to target a wide range
+    of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.1-preview.1
+    - 0.1.2-preview.2
+    - 1.0.0-pre.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.1
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 1.2.8
+    - 1.3.0
+    - 1.3.1
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.5.0-exp.1
+    - 1.5.0
+    - 1.5.1
+    compatible:
+    - 1.4.2
+    - 1.5.0-exp.1
+    - 1.5.0
+    - 1.5.1
+    verified: 1.4.2
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.2
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.inputsystem
+    version: 1.4.2
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - openxr
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637884092510000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
+    revision: 9f7014aa33bf536ec867484ee501dec6c2a4bc16
+    path: 
+  unityLifecycle:
+    version: 1.4.2
+    nextVersion: 
 - packageId: com.unity.services.core@1.4.2
   testable: 0
   isDirectDependency: 0
@@ -4277,6 +4841,67 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.3
+    nextVersion: 
+- packageId: com.unity.xr.interactionsubsystems@1.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.1
+  source: 1
+  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.interactionsubsystems@1.0.1
+  assetPath: Packages/com.unity.xr.interactionsubsystems
+  name: com.unity.xr.interactionsubsystems
+  displayName: XR Interaction Subsystems
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Contains definitions for Interaction Subsystems. This package is a
+    dependency of provider packages.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.3
+    - 1.0.0
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    verified: 1.0.1
+  dependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.0.5
+  resolvedDependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - subsystem
+  - XR
+  - Interaction
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637056471600000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
+    revision: c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6
+    path: 
+  unityLifecycle:
+    version: 1.0.1
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0

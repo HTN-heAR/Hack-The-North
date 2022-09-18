@@ -15,4 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/AR Tests.unity
     guid: 3b833002bdd54456ea53e955aeb2e2dd
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 60a4fa73c994947dcbd9449dd153b845, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bd67d7b23cd9b44c4b7ee4568d7a78b8, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 37055137d57674cf9a5b23e0a5d1bb75, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 740808bc209b140c989c481f328e4cbd, type: 2}
