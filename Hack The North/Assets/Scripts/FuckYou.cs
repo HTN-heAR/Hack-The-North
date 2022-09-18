@@ -11,12 +11,15 @@ using System;
 using UnityEngine.Networking;
 
 using System.Threading.Tasks;
+using TMPro;
 public class FuckYou : MonoBehaviour
 {
+    public RecordingCanvas rc;
     public string baseURL = "https://hack-the-north-deeznuts.herokuapp.com/";
     public string curText;
 
     public Text translatedDisplay;
+    public TMP_Text transcriptText;
     bool running;
 
     bool send;
@@ -34,7 +37,7 @@ public class FuckYou : MonoBehaviour
         string url = baseURL + ConvertURL("translate?q=salut j'le fromage. aimes tu le fromage? non? va te faire foutre");
         print(baseURL);
         // A correct website page.
-        StartCoroutine(GetRequest(url));
+        StartCoroutine(GetRequest(url, false));
         // ThreadStart ts = new ThreadStart(Main);
         // mThread = new Thread(ts);
         // mThread.Start();
@@ -67,9 +70,8 @@ public class FuckYou : MonoBehaviour
     //     RunAsync().Wait();
     // }
 
-    IEnumerator GetRequest(string uri)
+    IEnumerator GetRequest(string uri, bool type)
     {
-        print("bruh");
         using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
         {
             // Request and wait for the desired page.
@@ -78,9 +80,15 @@ public class FuckYou : MonoBehaviour
             string[] pages = uri.Split('/');
             int page = pages.Length - 1;
 
-            // print(webRequest.downloadHandler.text);
+            print(webRequest.downloadHandler.text);
             response = webRequest.downloadHandler.text;
-            translatedDisplay.text = response;
+            translatedDisplay.text += response;
+
+            if (!type)
+            {
+
+                transcriptText.text = GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript;
+            }
             switch (webRequest.result)
             {
                 case UnityWebRequest.Result.ConnectionError:
@@ -101,8 +109,22 @@ public class FuckYou : MonoBehaviour
     {
 
         string url = baseURL + "translate?q=" + ConvertURL(text);
-        StartCoroutine(GetRequest(url));
+        StartCoroutine(GetRequest(url, false));
     }
 
+    public void AudioEnd(string text)
+    {
+        if (rc.language != "en-US")
+        {
+            translate(text);
+            translatedDisplay.text += text;
+        }
+        else
+        {
+            transcriptText.text = GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript;
+        }
 
+    }
 }
+
+

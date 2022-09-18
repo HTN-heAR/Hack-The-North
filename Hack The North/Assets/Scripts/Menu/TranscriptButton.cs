@@ -39,7 +39,7 @@ public class TranscriptButton : MonoBehaviour
         if (expanding)
         {
             rectTransform.position = Vector3.Lerp(rectTransform.position, startPos + Vector3.up * canvasTransform.rect.height, Time.deltaTime * expandSpeed);
-            TopPanel.position = Vector3.Lerp(rectTransform.position, startPos + Vector3.down * 150f, Time.deltaTime * expandSpeed);
+            // TopPanel.position = Vector3.Lerp(rectTransform.position, startPos + Vector3.down * 150f, Time.deltaTime * expandSpeed);
             if (rectTransform.position.y >= startPos.y + canvasTransform.rect.height)
             {
                 expanding = false;
@@ -50,7 +50,7 @@ public class TranscriptButton : MonoBehaviour
 
         if (!expanding && !open)
         {
-            TopPanel.position = Vector3.Lerp(TopPanel.position, startPosTop, Time.deltaTime * expandSpeed);
+            // TopPanel.position = Vector3.Lerp(TopPanel.position, startPosTop, Time.deltaTime * expandSpeed);
             rectTransform.position = Vector3.Lerp(rectTransform.position, startPos, Time.deltaTime * expandSpeed);
         }
     }

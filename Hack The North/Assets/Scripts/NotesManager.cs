@@ -7,6 +7,8 @@ public class NotesManager : MonoBehaviour
     int curNoteSets = 0;
     public bool loadFromFile;
     public List<Notes> notes;
+
+    public string transcript;
     // Start is called before the first frame update
     void Start()
     {
