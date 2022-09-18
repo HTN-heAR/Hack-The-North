@@ -15,7 +15,7 @@ using TMPro;
 public class FuckYou : MonoBehaviour
 {
     public RecordingCanvas rc;
-    public string baseURL = "https://hack-the-north-deeznuts.herokuapp.com/";
+    public string baseURL = "https://hear-with-capital-a-and-r.herokuapp.com/";
     public string curText;
 
     public Text translatedDisplay;
@@ -82,12 +82,17 @@ public class FuckYou : MonoBehaviour
 
             print(webRequest.downloadHandler.text);
             response = webRequest.downloadHandler.text;
-            translatedDisplay.text += response;
+            // translatedDisplay.text += response;
 
             if (!type)
             {
-
+                GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += "<br/>" + response;
                 transcriptText.text = GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript;
+            }
+            else
+            {
+
+                GameObject.Find("Spawn Sticky").GetComponent<TempARSpawn>().spawnStickyText(response);
             }
             switch (webRequest.result)
             {
@@ -117,11 +122,12 @@ public class FuckYou : MonoBehaviour
         if (rc.language != "en-US")
         {
             translate(text);
-            translatedDisplay.text += text;
+            // translatedDisplay.text += text;
         }
         else
         {
             transcriptText.text = GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript;
+
         }
 
     }
