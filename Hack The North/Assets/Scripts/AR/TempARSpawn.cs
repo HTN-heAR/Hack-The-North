@@ -28,6 +28,6 @@ public class TempARSpawn : MonoBehaviour
 
     public void spawnSticky()
     {
-        Instantiate(sticky, arCam.transform.position + Vector3.forward * distFromSelf, Quaternion.identity);
+        Instantiate(sticky, arCam.transform.position + Vector3.forward * distFromSelf, sticky.transform.rotation);
     }
 }
