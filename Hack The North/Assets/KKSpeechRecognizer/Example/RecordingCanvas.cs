@@ -8,6 +8,7 @@ public class RecordingCanvas : MonoBehaviour
     public Button startRecordingButton;
     public Text resultText;
     public FuckYou fy;
+    public GameObject indicator;
 
     public string language = "en-US";
 
@@ -31,7 +32,7 @@ public class RecordingCanvas : MonoBehaviour
             startRecordingButton.enabled = false;
         }
 
-        SpeechRecognizer.SetDetectionLanguage("fr-CA");
+        SpeechRecognizer.SetDetectionLanguage("en-US");
     }
 
     public void OnChangeLanguage(int num)
@@ -49,7 +50,6 @@ public class RecordingCanvas : MonoBehaviour
 
     public void OnFinalResult(string result)
     {
-        startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
         string text = result;
         if (language != "en-US")
         {
@@ -58,7 +58,8 @@ public class RecordingCanvas : MonoBehaviour
         fy.AudioEnd(text);
 
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
-        resultText.text = result;
+        indicator.SetActive(false);
+        // resultText.text = result;
         startRecordingButton.enabled = true;
 
     }
@@ -78,6 +79,7 @@ public class RecordingCanvas : MonoBehaviour
         else
         {
             resultText.text = "Say something :-)";
+            indicator.SetActive(false);
         }
     }
 
@@ -98,6 +100,7 @@ public class RecordingCanvas : MonoBehaviour
     public void OnEndOfSpeech()
     {
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
+        indicator.SetActive(false);
         string text = resultText.text;
         if (language != "en-US")
         {
@@ -110,6 +113,7 @@ public class RecordingCanvas : MonoBehaviour
     {
         Debug.LogError(error);
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
+        indicator.SetActive(false);
         startRecordingButton.enabled = true;
     }
 
@@ -124,6 +128,7 @@ public class RecordingCanvas : MonoBehaviour
 #elif UNITY_ANDROID && !UNITY_EDITOR
 			SpeechRecognizer.StopIfRecording();
 			startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
+            indicator.SetActive(true);
 #endif
         }
         else
@@ -131,6 +136,7 @@ public class RecordingCanvas : MonoBehaviour
             SpeechRecognizer.StartRecording(true);
             startRecordingButton.GetComponentInChildren<Text>().text = "Stop Recording";
             resultText.text = "Say something :-)";
+            indicator.SetActive(false);
         }
     }
 }

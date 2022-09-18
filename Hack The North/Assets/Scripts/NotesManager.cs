@@ -6,7 +6,7 @@ public class NotesManager : MonoBehaviour
 {
     int curNoteSets = 0;
     public bool loadFromFile;
-    public List<Notes> notes;
+    public List<GameObject> notes;
 
     public string transcript;
     // Start is called before the first frame update
@@ -34,9 +34,9 @@ public class NotesManager : MonoBehaviour
         for (int i = 0; i < size; i++)
         {
             // Load note
-            Notes note = new Notes();
-            note.text = PlayerPrefs.GetString(curNoteSets + " " + i);
-            notes.Add(note);
+            // Notes note = new Notes();
+            // note.text = PlayerPrefs.GetString(curNoteSets + " " + i);
+            // notes.Add(note);
         }
 
     }
@@ -48,7 +48,7 @@ public class NotesManager : MonoBehaviour
         for (int i = 0; i < notes.Count; i++)
         {
             // Save notes
-            PlayerPrefs.SetString(curNoteSets + " " + i, notes[i].text);
+            // PlayerPrefs.SetString(curNoteSets + " " + i, notes[i].text);
         }
     }
 }
