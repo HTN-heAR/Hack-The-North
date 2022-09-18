@@ -8,6 +8,8 @@ public class StickyPosition : MonoBehaviour
 
     private Camera arCam;
 
+    public float speed;
+
     private void Awake()
     {
         arCam = Camera.main;
@@ -16,6 +18,6 @@ public class StickyPosition : MonoBehaviour
 
     void Update()
     {
-        
-    }
+        transform.position = Vector3.Lerp(transform.position, arCam.transform.position + pos, speed * Time.deltaTime);
+            }
 }
