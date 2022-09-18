@@ -12,7 +12,6 @@ public class GrabSticky : MonoBehaviour
     private ARRaycastHit currentHit;
 
     private Vector2 touchPos;
-    public float rayRange = 25f;
     public float holdRange = 2f;
     private bool hold = false;
     private bool resetPos = false;
@@ -37,14 +36,11 @@ public class GrabSticky : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(touchPos);
 
         RaycastHit hitObject;
-        if (Physics.Raycast(ray, out hitObject, rayRange))
+        if (Physics.Raycast(ray, out hitObject))
         {
-            if (hitObject.transform.tag == "Sticky")
+            if (hold)
             {
-                if (hold)
-                {
-                    hitObject.transform.position = ray.GetPoint(holdRange);
-                }
+                hitObject.transform.position = ray.GetPoint(holdRange);
             }
         }
 
