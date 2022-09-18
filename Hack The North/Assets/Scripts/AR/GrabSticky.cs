@@ -13,11 +13,18 @@ public class GrabSticky : MonoBehaviour
 
     private Vector2 touchPos;
     public float rayRange = 25f;
+    public float holdRange = 2f;
     private bool hold = false;
+    private bool resetPos = false;
 
     public void OnTouchPosition(InputValue value)
     {
         touchPos = value.Get<Vector2>();
+    }
+    public void OnReleaseTouch(InputValue value)
+    {
+        hold = false;
+        resetPos = true;
     }
 
 
@@ -26,7 +33,6 @@ public class GrabSticky : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(touchPos);
 
         RaycastHit hitObject;
-        /**
         if (Physics.Raycast(ray, out hitObject, rayRange))
         {
             if (hitObject.transform.tag == "sticky")
@@ -37,12 +43,13 @@ public class GrabSticky : MonoBehaviour
 
         if (hold)
         {
-            if(raycastManager.Raycast(touchPos, rayHits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
-            {
-
-            }
+            hitObject.transform.position = ray.GetPoint(holdRange);
         }
-        **/
+        if (resetPos)
+        {
+            hitObject.transform.GetComponent<StickyPosition>().pos = hitObject.transform.position - Camera.main.transform.position;
+        }
+
         /**
         if (raycastManager.Raycast(touchPos, rayHits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
         {

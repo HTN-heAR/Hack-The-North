@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StickyPosition : MonoBehaviour
 {
-    private Vector3 pos;
+    public Vector3 pos;
 
     private Camera arCam;
 
@@ -19,5 +19,5 @@ public class StickyPosition : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.Lerp(transform.position, arCam.transform.position + pos, speed * Time.deltaTime);
-            }
+    }
 }

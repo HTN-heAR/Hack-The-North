@@ -11,6 +11,7 @@ public class TempARSpawn : MonoBehaviour
 
     public GameObject sticky;
     public float distFromSelf;
+    public Text consoleText;
 
 
 
@@ -24,12 +25,16 @@ public class TempARSpawn : MonoBehaviour
     private void Update()
     {
         distFromSelf = distSlider.value * 5;
+
     }
 
     public void spawnSticky()
     {
         GameObject stickyObject;
 
-        stickyObject = Instantiate(sticky, arCam.transform.position + Vector3.forward * distFromSelf, sticky.transform.rotation);
+        stickyObject = Instantiate(sticky, arCam.transform.position + arCam.transform.forward * 5, Quaternion.identity);
+        stickyObject.transform.LookAt(arCam.transform);
+        consoleText.text = (stickyObject.transform.eulerAngles).ToString();
+        // stickyObject.transform.Rotate(0, -90, 0);
     }
 }
