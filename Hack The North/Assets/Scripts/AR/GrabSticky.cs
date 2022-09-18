@@ -43,7 +43,7 @@ public class GrabSticky : MonoBehaviour
             }
         }
         **/
-
+        /**
         if (raycastManager.Raycast(touchPos, rayHits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
         {
             Pose objectPose = rayHits[rayHits.Count - 1].pose;
@@ -51,5 +51,6 @@ public class GrabSticky : MonoBehaviour
             objectPose.position = gameObject.transform.position + Vector3.forward;
             objectPose.rotation = Quaternion.Euler(gameObject.transform.position + Vector3.up * 180);
         }
+        **/
     }
 }
