@@ -9,6 +9,8 @@ public class RecordingCanvas : MonoBehaviour
     public Text resultText;
     public FuckYou fy;
 
+    string language = "en-US";
+
     void Start()
     {
         if (SpeechRecognizer.ExistsOnDevice())
@@ -30,6 +32,19 @@ public class RecordingCanvas : MonoBehaviour
         }
 
         SpeechRecognizer.SetDetectionLanguage("fr-CA");
+    }
+
+    public void OnChangeLanguage(int num)
+    {
+        switch (num)
+        {
+            case 0:
+                SpeechRecognizer.SetDetectionLanguage("en-US");
+                break;
+            case 1:
+                SpeechRecognizer.SetDetectionLanguage("fr-CA");
+                break;
+        }
     }
 
     public void OnFinalResult(string result)
