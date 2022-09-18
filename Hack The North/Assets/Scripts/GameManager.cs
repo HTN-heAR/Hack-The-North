@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        DontDestroyOnLoad(gameObject);
     }
     // Start is called before the first frame update
     void Start()
@@ -98,7 +100,7 @@ public class GameManager : MonoBehaviour
     // Actually loads scene
     public IEnumerator LoadScene(string sceneName)
     {
-        if (transition != null) transition.SetTrigger("Transition"); // Start transitioning scene out
+        if (transition != null) transition.Play("Fade Out"); // Start transitioning scene out
 
 
         yield return new WaitForSeconds(sceneTransitionTime); // Wait for transition
@@ -127,7 +129,7 @@ public class GameManager : MonoBehaviour
 
         gm = this; // Reset self as GameManager instance
 
-        if (transition != null) transition.SetTrigger("Transition"); // Start transitioning scene back
+        if (transition != null) transition.Play("Fade In"); // Start transitioning scene back
 
 
         yield return new WaitForSeconds(sceneTransitionTime); // Wait for transition
