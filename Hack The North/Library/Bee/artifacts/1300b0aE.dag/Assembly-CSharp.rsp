@@ -391,6 +391,9 @@
 "Assets/Scripts/AR/GrabSticky.cs"
 "Assets/Scripts/AR/TempARSpawn.cs"
 "Assets/Scripts/FuckYou.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Notes.cs"
+"Assets/Scripts/NotesManager.cs"
 "Assets/Scripts/Test.cs"
 "Assets/Scripts/test_curl.cs"
 -langversion:9.0

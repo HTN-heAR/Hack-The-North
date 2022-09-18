@@ -5,26 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637990538161549283
-    m_Hash: 3609258913
-=======
-      ticks: 637990539890000000
-    m_Hash: 402615922
->>>>>>> c2432b3147bf6395a12e5a052abfaa472ed4e1ab
+      ticks: 637990600651134947
+    m_Hash: 2840243163
   m_LockFileStatus:
     m_FilePath: C:/_Personal/Coding/Hack-The-North/Hack The North/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637990538161687185
-    m_Hash: 2980657628
-=======
-      ticks: 637990539890000000
-    m_Hash: 2899430026
->>>>>>> c2432b3147bf6395a12e5a052abfaa472ed4e1ab
+      ticks: 637990609917932333
+    m_Hash: 57948398
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -179,7 +169,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.feature.ar@1.0.0
+  resolvedPath: C:\_Personal\Coding\Hack-The-North\Hack The North\Library\PackageCache\com.unity.feature.ar@1.0.0
   assetPath: Packages/com.unity.feature.ar
   name: com.unity.feature.ar
   displayName: AR
@@ -241,7 +231,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arcore
-    version: 4.2.3
+    version: 4.2.6
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
@@ -4303,203 +4293,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-- packageId: com.unity.xr.arcore@4.2.3
-  testable: 0
-  isDirectDependency: 0
-  version: 4.2.3
-  source: 1
-  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.arcore@4.2.3
-  assetPath: Packages/com.unity.xr.arcore
-  name: com.unity.xr.arcore
-  displayName: ARCore XR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
-    XR API.
-
-    Supports the following features:
-
-    -Efficient Background Rendering
-
-    -Horizontal
-    Planes
-
-    -Depth Data
-
-    -Anchors
-
-    -Hit Testing
-
-    -Occlusion'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.24
-    - 2.0.2
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.4
-    - 2.1.8
-    - 2.1.11
-    - 2.1.12
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.4
-    - 3.1.5
-    - 3.1.7
-    - 3.1.8
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.3
-    - 4.0.4
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.1.10
-    - 4.1.12
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.5
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.6
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    compatible:
-    - 4.2.3
-    - 4.2.6
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    verified: 4.2.6
-  dependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.3
-  - name: com.unity.xr.management
-    version: 4.0.1
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.xr.arsubsystems
-    version: 4.2.6
-  - name: com.unity.subsystemregistration
-    version: 1.1.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  keywords:
-  - arcore
-  - ar
-  - augmented
-  - xr
-  - reality
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637871117150000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: 497981bbdfaf531fe240edcfa8f6edfd9aa1567e
-    path: 
-  unityLifecycle:
-    version: 4.2.3
-    nextVersion: 
 - packageId: com.unity.xr.magicleap@6.4.1
   testable: 0
   isDirectDependency: 0
   version: 6.4.1
   source: 1
-  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.magicleap@6.4.1
+  resolvedPath: C:\_Personal\Coding\Hack-The-North\Hack The North\Library\PackageCache\com.unity.xr.magicleap@6.4.1
   assetPath: Packages/com.unity.xr.magicleap
   name: com.unity.xr.magicleap
   displayName: Magic Leap XR Plugin
@@ -4650,7 +4449,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.4.2
   source: 1
-  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.openxr@1.4.2
+  resolvedPath: C:\_Personal\Coding\Hack-The-North\Hack The North\Library\PackageCache\com.unity.xr.openxr@1.4.2
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -5048,7 +4847,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: /Users/raphaelkwok/Desktop/Unity/Hack-The-North/Hack The North/Library/PackageCache/com.unity.xr.interactionsubsystems@1.0.1
+  resolvedPath: C:\_Personal\Coding\Hack-The-North\Hack The North\Library\PackageCache\com.unity.xr.interactionsubsystems@1.0.1
   assetPath: Packages/com.unity.xr.interactionsubsystems
   name: com.unity.xr.interactionsubsystems
   displayName: XR Interaction Subsystems
@@ -5064,15 +4863,13 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.0.1-preview.3
-    - 1.0.0
     - 1.0.1
     compatible:
     - 1.0.1
     verified: 1.0.1
   dependencies:
   - name: com.unity.subsystemregistration
-    version: 1.0.5
+    version: 1.0.6
   resolvedDependencies:
   - name: com.unity.subsystemregistration
     version: 1.1.0
@@ -5093,13 +4890,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637056471600000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: git@github.cds.internal.unity3d.com:unity/com.unity.xr.interactionsubsystems.git
-    revision: c9d1e6a52c5806d8ec4d9f74ec9eaaf54f07d2c6
+    revision: e4d74ea2d737ed36976840f753a2817ef9e4e56d
     path: 
   unityLifecycle:
     version: 1.0.1
