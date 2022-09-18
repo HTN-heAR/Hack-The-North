@@ -38,15 +38,18 @@ public class GrabSticky : MonoBehaviour
         RaycastHit hitObject;
         if (Physics.Raycast(ray, out hitObject))
         {
-            if (hold)
+            if (hitObject.transform.tag == "Sticky")
             {
-                hitObject.transform.position = ray.GetPoint(holdRange);
+                //hitObject.transform.position = ray.GetPoint(holdRange);
+
+                hitObject.transform.position = Camera.main.transform.position + transform.forward * holdRange;
             }
         }
 
 
         if (resetPos)
         {
+            hitObject.transform.position = Camera.main.transform.position + transform.forward * 5;
             hitObject.transform.GetComponent<StickyPosition>().pos = hitObject.transform.position - Camera.main.transform.position;
         }
 
