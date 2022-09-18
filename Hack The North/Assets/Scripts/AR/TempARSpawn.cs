@@ -6,12 +6,10 @@ using UnityEngine.XR.ARFoundation;
 
 public class TempARSpawn : MonoBehaviour
 {
-    public Slider distSlider;
 
 
     public GameObject sticky;
-    public float distFromSelf;
-    public Text consoleText;
+    public float distFromSelf = 5f;
 
 
 
@@ -22,19 +20,11 @@ public class TempARSpawn : MonoBehaviour
         arCam = Camera.main;
     }
 
-    private void Update()
-    {
-        distFromSelf = distSlider.value * 5;
-
-    }
-
     public void spawnSticky()
     {
         GameObject stickyObject;
 
-        stickyObject = Instantiate(sticky, arCam.transform.position + arCam.transform.forward * 5, Quaternion.identity);
+        stickyObject = Instantiate(sticky, arCam.transform.position + arCam.transform.forward * distFromSelf, Quaternion.identity);
         stickyObject.transform.LookAt(arCam.transform);
-        consoleText.text = (stickyObject.transform.eulerAngles).ToString();
-        // stickyObject.transform.Rotate(0, -90, 0);
     }
 }
