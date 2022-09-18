@@ -26,6 +26,10 @@ public class GrabSticky : MonoBehaviour
         hold = false;
         resetPos = true;
     }
+    public void OnHold(InputValue value)
+    {
+        hold = true;
+    }
 
 
     private void Update()
@@ -35,16 +39,16 @@ public class GrabSticky : MonoBehaviour
         RaycastHit hitObject;
         if (Physics.Raycast(ray, out hitObject, rayRange))
         {
-            if (hitObject.transform.tag == "sticky")
+            if (hitObject.transform.tag == "Sticky")
             {
-                hold = true;
+                if (hold)
+                {
+                    hitObject.transform.position = ray.GetPoint(holdRange);
+                }
             }
         }
 
-        if (hold)
-        {
-            hitObject.transform.position = ray.GetPoint(holdRange);
-        }
+
         if (resetPos)
         {
             hitObject.transform.GetComponent<StickyPosition>().pos = hitObject.transform.position - Camera.main.transform.position;
