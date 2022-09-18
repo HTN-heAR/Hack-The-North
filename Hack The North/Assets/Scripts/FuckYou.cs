@@ -78,7 +78,7 @@ public class FuckYou : MonoBehaviour
             string[] pages = uri.Split('/');
             int page = pages.Length - 1;
 
-            print(webRequest.downloadHandler.text);
+            // print(webRequest.downloadHandler.text);
             response = webRequest.downloadHandler.text;
             translatedDisplay.text = response;
             switch (webRequest.result)
