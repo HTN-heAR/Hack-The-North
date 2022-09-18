@@ -15,7 +15,7 @@ using TMPro;
 public class FuckYou : MonoBehaviour
 {
     public RecordingCanvas rc;
-    public string baseURL = "https://hear-with-capital-a-and-r.herokuapp.com/";
+    private string baseURL = "https://hear-with-capital-a-and-r.herokuapp.com/";
     public string curText;
 
     public Text translatedDisplay;
@@ -117,6 +117,13 @@ public class FuckYou : MonoBehaviour
         StartCoroutine(GetRequest(url, false));
     }
 
+    public void summarize(string text)
+    {
+
+        string url = baseURL + "summary?q=" + ConvertURL(text);
+        StartCoroutine(GetRequest(url, true));
+    }
+
     public void AudioEnd(string text)
     {
         if (rc.language != "en-US")
@@ -127,7 +134,7 @@ public class FuckYou : MonoBehaviour
         else
         {
             transcriptText.text = GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript;
-
+            summarize(text);
         }
 
     }

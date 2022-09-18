@@ -55,7 +55,7 @@ public class RecordingCanvas : MonoBehaviour
         {
             // fy.translate(result);
         }
-        GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += "<br/>" + result;
+        fy.AudioEnd(text);
 
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
         resultText.text = result;
