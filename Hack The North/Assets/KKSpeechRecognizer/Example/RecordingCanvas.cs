@@ -7,6 +7,7 @@ public class RecordingCanvas : MonoBehaviour
 {
     public Button startRecordingButton;
     public Text resultText;
+    public FuckYou fy;
 
     void Start()
     {
@@ -73,6 +74,7 @@ public class RecordingCanvas : MonoBehaviour
     public void OnEndOfSpeech()
     {
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
+        fy.translate(resultText.text);
     }
 
     public void OnError(string error)
