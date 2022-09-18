@@ -38,7 +38,7 @@ public class TranscriptButton : MonoBehaviour
     {
         if (expanding)
         {
-            rectTransform.position = Vector3.Lerp(rectTransform.position, startPos + Vector3.up * canvasTransform.rect.height, Time.deltaTime * expandSpeed);
+            rectTransform.position = Vector3.Lerp(rectTransform.position, startPos + Vector3.up * (canvasTransform.rect.height - 287), Time.deltaTime * expandSpeed);
             // TopPanel.position = Vector3.Lerp(rectTransform.position, startPos + Vector3.down * 150f, Time.deltaTime * expandSpeed);
             if (rectTransform.position.y >= startPos.y + canvasTransform.rect.height)
             {
