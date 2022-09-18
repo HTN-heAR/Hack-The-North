@@ -9,7 +9,7 @@ public class RecordingCanvas : MonoBehaviour
     public Text resultText;
     public FuckYou fy;
 
-    string language = "en-US";
+    public string language = "en-US";
 
     void Start()
     {
@@ -50,8 +50,17 @@ public class RecordingCanvas : MonoBehaviour
     public void OnFinalResult(string result)
     {
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
+        string text = result;
+        if (language != "en-US")
+        {
+            // fy.translate(result);
+        }
+        GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += "<br/>" + result;
+
+        startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
         resultText.text = result;
         startRecordingButton.enabled = true;
+
     }
 
     public void OnPartialResult(string result)
@@ -89,7 +98,12 @@ public class RecordingCanvas : MonoBehaviour
     public void OnEndOfSpeech()
     {
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
-        fy.translate(resultText.text);
+        string text = resultText.text;
+        if (language != "en-US")
+        {
+            // fy.translate(resultText.text);
+        }
+        GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += "<br/>" + resultText.text;
     }
 
     public void OnError(string error)
