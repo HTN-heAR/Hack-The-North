@@ -35,9 +35,9 @@ public class FuckYou : MonoBehaviour
     private void Start()
     {
         string url = baseURL + ConvertURL("summary?q=Rotavirus is a genus of double-stranded RNA virus and the leading cause of severe diarrhoea among infants and young children, nearly all of whom have an infection by age five. Rotavirus A, the most common species, causes more than 90 per cent of human infections. Rotavirus is transmitted by the faecal–oral route. It infects cells that line the small intestine and produces an enterotoxin, which induces gastroenteritis, leading to severe diarrhoea and sometimes death through dehydration. ");
-        print(baseURL);
+        // print(baseURL);
         // A correct website page.
-        StartCoroutine(GetRequest(url, true));
+        // translate("bonjour, j'aime luwai.");
         // ThreadStart ts = new ThreadStart(Main);
         // mThread = new Thread(ts);
         // mThread.Start();
@@ -86,11 +86,11 @@ public class FuckYou : MonoBehaviour
 
             if (!type)
             {
-                GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += response;
+                GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += "\n" + response;
                 transcriptText.text = GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript;
                 summarize(response);
             }
-            else
+            else if (type)
             {
 
                 GameObject.Find("Spawn Sticky").GetComponent<TempARSpawn>().spawnStickyText(response);
@@ -127,7 +127,7 @@ public class FuckYou : MonoBehaviour
 
     public void AudioEnd(string text)
     {
-        if (rc.language != "en-US")
+        if (rc.language != "en-US" || rc.isFrench)
         {
             translate(text);
             // translatedDisplay.text += text;

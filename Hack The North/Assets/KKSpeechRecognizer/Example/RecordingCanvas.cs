@@ -8,8 +8,8 @@ public class RecordingCanvas : MonoBehaviour
     public Button startRecordingButton;
     public Text resultText;
     public FuckYou fy;
-    public GameObject indicator;
-
+    public Image indicator;
+    public bool isFrench = false;
     public string language = "en-US";
 
     void Start()
@@ -41,9 +41,13 @@ public class RecordingCanvas : MonoBehaviour
         {
             case 0:
                 SpeechRecognizer.SetDetectionLanguage("en-US");
+                isFrench = false;
                 break;
             case 1:
                 SpeechRecognizer.SetDetectionLanguage("fr-CA");
+                isFrench = true;
+                break;
+            default:
                 break;
         }
     }
@@ -51,14 +55,10 @@ public class RecordingCanvas : MonoBehaviour
     public void OnFinalResult(string result)
     {
         string text = result;
-        if (language != "en-US")
-        {
-            // fy.translate(result);
-        }
         fy.AudioEnd(text);
 
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
-        indicator.SetActive(false);
+        indicator.enabled = true;
         // resultText.text = result;
         startRecordingButton.enabled = true;
 
@@ -79,7 +79,7 @@ public class RecordingCanvas : MonoBehaviour
         else
         {
             resultText.text = "Say something :-)";
-            indicator.SetActive(false);
+            indicator.enabled = true;
         }
     }
 
@@ -100,20 +100,20 @@ public class RecordingCanvas : MonoBehaviour
     public void OnEndOfSpeech()
     {
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
-        indicator.SetActive(false);
+        indicator.enabled = false;
         string text = resultText.text;
         if (language != "en-US")
         {
             // fy.translate(resultText.text);
         }
-        GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += "<br/>" + resultText.text;
+        // GameObject.Find("Notes Manager").GetComponent<NotesManager>().transcript += "\n" + resultText.text;
     }
 
     public void OnError(string error)
     {
         Debug.LogError(error);
         startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
-        indicator.SetActive(false);
+        indicator.enabled = false;
         startRecordingButton.enabled = true;
     }
 
@@ -128,7 +128,7 @@ public class RecordingCanvas : MonoBehaviour
 #elif UNITY_ANDROID && !UNITY_EDITOR
 			SpeechRecognizer.StopIfRecording();
 			startRecordingButton.GetComponentInChildren<Text>().text = "Start Recording";
-            indicator.SetActive(true);
+        indicator.enabled = false;
 #endif
         }
         else
@@ -136,7 +136,7 @@ public class RecordingCanvas : MonoBehaviour
             SpeechRecognizer.StartRecording(true);
             startRecordingButton.GetComponentInChildren<Text>().text = "Stop Recording";
             resultText.text = "Say something :-)";
-            indicator.SetActive(false);
+            indicator.enabled = true;
         }
     }
 }

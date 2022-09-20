@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
+  m_IndirectSpecularColor: {r: 0.37089851, g: 0.3783701, b: 0.3572253, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2698,7 +2698,7 @@ RectTransform:
   m_GameObject: {fileID: 1061195923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 677501692}
@@ -2710,7 +2710,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -270, y: 0}
-  m_SizeDelta: {x: 540, y: 150}
+  m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061195925
 MonoBehaviour:
@@ -4949,19 +4949,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " // Touchable component\n \n using UnityEngine;\n using UnityEngine.UI;\n
-    \n public class Touchable : Text\n {\n     protected override void Awake()\n    
+  m_text: " // Touchable component\n \n using UnityEngine;\n using UnityEngine.UI;\n\n
+    public class Touchable : Text\n {\n     protected override void Awake()\n    
     {\n         base.Awake();\n     }\n }\n \n // Touchable_Editor component, to
-    prevent treating the component as a Text object.\n \n using UnityEditor;\n \n
-    [CustomEditor(typeof(Touchable))]\n public class Touchable_Editor : Editor\n
-    {\n     public override void OnInspectorGUI ()\n     {\n         // Do nothing\n    
-    }\n }\n // Touchable component\n \n using UnityEngine;\n using UnityEngine.UI;\n
-    \n public class Touchable : Text\n {\n     protected override void Awake()\n    
-    {\n         base.Awake();\n     }\n }\n \n // Touchable_Editor component, to
-    prevent treating the component as a Text object.\n \n using UnityEditor;\n \n
-    [CustomEditor(typeof(Touchable))]\n public class Touchable_Editor : Editor\n
-    {\n     public override void OnInspectorGUI ()\n     {\n         // Do nothing\n    
-    }\n }"
+    prevent treating the component as a Text object.\n \n using UnityEditor;\n \n[CustomEditor(typeof(Touchable))]\n
+    public class Touchable_Editor : Editor\n{\n     public override void OnInspectorGUI
+    ()\n     {\n         // Do nothing\n     }\n }\n // Touchable component\n \n
+    using UnityEngine;\n using UnityEngine.UI;\n\n public class Touchable : Text\n
+    {\n     protected override void Awake()\n     {\n         base.Awake();\n    
+    }\n }\n \n // Touchable_Editor component, to prevent treating the component as
+    a Text object.\n \n using UnityEditor;\n \n[CustomEditor(typeof(Touchable))]\n
+    public class Touchable_Editor : Editor\n{\n     public override void OnInspectorGUI
+    ()\n     {\n         // Do nothing\n     }\n }"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5796,7 +5795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2048788988
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5839,7 +5838,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048788987}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -5895,7 +5894,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048788987}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -6027,7 +6026,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2145701640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6055,7 +6054,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145701639}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
